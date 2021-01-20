@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colour_blue_210"
+    tools:context=".activity.LoginActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colour_blue_122"
+            android:text="Selamat datang di"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:textColor="@color/colour_blue_110"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="ARIZ HOMEMADE"
+            android:textSize="30dp"/>
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logoaik"/>
+
+        <Button
+            app:cornerRadius="8dp"
+            android:backgroundTint="@color/colour_blue_145"
+            android:id="@+id/btn_proseslogin"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/masuk"/>
+
+        <Button
+            android:backgroundTint="@color/colour_blue_210"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colour_blue_145"
+            android:id="@+id/btn_register"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            app:strokeColor="@color/colour_blue_145"
+            app:strokeWidth="2dp"
+            app:cornerRadius="8dp"
+            android:text="Daftar"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

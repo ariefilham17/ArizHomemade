@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ArizHomemade" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colour_purple_200</item>
+        <item name="colorPrimaryVariant">@color/colour_purple_700</item>
+        <item name="colorOnPrimary">@color/colour_black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colour_teal_200</item>
+        <item name="colorSecondaryVariant">@color/colour_teal_200</item>
+        <item name="colorOnSecondary">@color/colour_black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
